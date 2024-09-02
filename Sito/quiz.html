@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+    <!-- HEAD -->
+    <head>
+        <title>Yokai</title>
+        <link rel="shortcut icon" href="Img/Tori_icon.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="author" content="Aurora Tuvo">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <script src="js/quiz.js"></script>
+    </head>
+
+    <!-- BODY -->
+    <body>
+
+        <!-- HEADER CHE CONTIENE LA NAVIGATION BAR -->
+        <header>
+            <nav id="navigation">
+                <div id="barra">
+                    <ul class="menu">
+                        <li class="elemento">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="elemento">
+                            <a href="tipi.html">Tipi di yōkai</a>
+                        </li>
+                        <li class="elemento">
+                            <a href="quiz.html">Quiz</a>
+                        </li>
+                        <li class="elemento">
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+            
+            <!-- INVITO ALL'UTENTE PER PROVARE IL QUIZ-->
+            <div class="centro">
+                <div class="scritte">
+                <h1 class="titolo">PROVA IL QUIZ!</h1>
+                <p class="descrizionecentro">
+                    Quante cose nuove hai imparato sugli yōkai?
+                    <br>
+                    Tenta il quiz qua sotto e scoprilo!
+                    <br>
+                    Prosegui con le domande cliccando "Avanti" e non preoccuparti del risultato: potrai sempre ritentare, cliccando su "Inizia"!
+                </p>
+                </div>
+            </div>
+
+            <!-- QUIZ -->
+            <div id="quizz">
+                <div id="Domande">
+                    <span id="numeroDomanda"></span>
+                    <br>
+                    <span id="testoDomanda"></span>
+                </div>
+                <div id="Risposte">
+                    <input type="radio" name="risposte" id="risposta0">
+                    <span id="testoRisposta0"></span>
+                    <br>
+                    <input type="radio" name="risposte" id="risposta1">
+                    <span id="testoRisposta1"></span>
+                    <br>
+                    <input type="radio" name="risposte" id="risposta2">
+                    <span id="testoRisposta2"></span>
+                    <br>
+                    <input type="button" value="Avanti" class= "bottone" id="avanti">
+                    <br>
+                    <span id="risultato"></span>
+                    <br>
+                    <input type="button" value="Inizia" class= "bottone" id="inizia">
+                </div>
+            </div>
+
+            <!-- RITORNO ALLA HOME -->
+            <div class="centro">
+                <div class="scritte">
+                    <h1 class="titolo">Com'è andata?</h1>
+                    <p class="descrizionecentro">
+                        Hai fatto un buon punteggio, o ancora non sei soddisfatto del risultato?
+                        <br>
+                        Se hai bisogno di un ripasso, ricomincia da capo cliccando qua sotto!
+                    </p>
+                </div>
+                    <div class="scopri">
+                        <a href="index.html" class="ultimolink">HOME</a>
+                    </div>
+            </div>
+            
+        </main>
+
+
+        <!-- ICONA IN FONDO AL SITO -->
+        <div class="icona">
+            <img src="Img/Tori_icon.jpg" alt="icona di un Tori" class="iconafondo">
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer> 
+            <div class="footer">
+                <p class="scrittefooter">
+                    Progetto realizzato da Aurora Tuvo - Matricola 654815.
+                    <br>
+                    Corso di studi: Informatica Umanistica.
+                    <br>
+                    Contatti: a.tuvo@studenti.unipi.it
+                </p>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>

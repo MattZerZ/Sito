@@ -1,0 +1,307 @@
+/* Navigation bar */
+#navigation {
+    background-image: url(Img/Sutasoma.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+}
+
+#barra {
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 10px; 
+}
+
+ul {
+    list-style: none;
+}
+
+.elemento {
+    letter-spacing: 1px; 
+    font-size: 20px;
+    padding: 30px 30px; 
+    display: inline;  
+    width: 100%;  
+    text-align: center;
+    margin: auro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 249, 245);
+}
+
+a:link {
+    color:rgb(255, 249, 245);
+    text-decoration: none; 
+}
+
+a:visited {
+    color:rgb(255, 249, 245);
+}
+
+a:hover {
+    margin:auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(168, 130, 130, 0.369);
+}
+
+
+/* Body */
+body{
+    margin:0;
+    border: 0;
+    padding: 0;
+    background-image: url(Img/OceanSprayBlush_chiaro.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred
+}
+
+
+
+/* Paragrafo inziale della home, con immagine situata a destra */
+.dx {
+    margin: 40px;
+    padding: 30px;
+    border: 0px;
+    border-radius: 15px;
+    background-color:rgba(255, 249, 245, 0.674);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgdx {
+    width: 450px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.scrittedx {
+    width: 60%;
+    margin-left: 30px;
+    margin-right: 50px;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.titolodx {
+    font-size: 35px;
+}
+
+.descrizionedx {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+/* Paragrafo finale della home + Paragrafi iniziali delle pagine "Tipi di yokai" e "Quiz" + Paragrafo fonti */
+.centro {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: rgba(255, 249, 245, 0.441);
+    color: darkred;
+    text-align: center;
+}
+
+#cent {
+    margin: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 249, 245, 0.674);
+    color: darkred;
+    text-align: center;
+}
+
+.scritte {
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 28px;
+}
+
+.titolo {
+    font-size: 35px;;
+}
+
+.descrizionecentro {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.esterno:link {
+    color: darkred;
+    text-decoration: underline;
+}
+
+.esterno:visited {
+    color:darkred;
+}
+
+.esterno:hover {
+    padding: 0px;
+    background-color: rgba(255, 249, 245);
+}
+
+
+/* Galleria con immagini, nomi degli yokai presentati, e informazioni relative */
+.galleria {
+    margin: 50px;
+    padding: 30px;
+    border: 0px;
+    border-radius: 15px;
+    background-color:rgba(255, 249, 245, 0.674);
+}
+
+#imggalleria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#foto {
+    width: 450px; 
+    border-radius: 30px;
+}
+
+#nomeyokai {
+    text-align: center;
+    font-size: 30px;
+}
+
+#descrizioneyokai {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.freccia {
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 15px;
+    background-color:  rgba(73, 0, 0, 0.708);
+    color: rgba(255, 249, 245);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.freccia:hover {
+    background-color: rgba(168, 130, 130, 0.859);
+}
+
+
+
+/* Quiz */
+#quizz {
+    margin-top: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 30px;
+    background-color:rgba(255, 249, 245, 0.674);
+    display:flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Domande {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#Risposte {
+    line-height: 30px;
+}
+
+.bottone {
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 15px;
+    background-color:  rgba(73, 0, 0, 0.708);
+    color: rgba(255, 249, 245);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bottone:hover {
+    background-color: rgb(168, 130, 130);
+}
+
+
+
+/* Link alla fine delle pagine Home, Tipi di yokai e Quiz */
+.scopri {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    border: 0px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(73, 0, 0, 0.708);
+}
+
+.ultimolink {
+    text-decoration: none;
+    color: rgb(255, 249, 245);
+}
+
+.scopri:hover {
+    background-color: rgb(168, 130, 130);
+}
+
+
+/* Icona in fondo alle pagine del sito */
+.icona {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    padding: 0px;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    object-fit: cover;
+}
+ 
+.iconafondo {
+     margin: 0px;
+     border: 0px;
+     padding: 0px;
+     width: 100%;
+}
+
+
+
+
+/* Footer */
+.footer {
+    background-image: url(Img/Sutasoma.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 0px;
+    border: 0px;
+    padding: 20px;
+}
+
+.scrittefooter {
+    color: rgb(255, 249, 245);
+    text-align: center;
+    line-height: 30px;
+}
